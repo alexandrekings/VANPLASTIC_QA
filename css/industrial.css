@@ -1,0 +1,348 @@
+/*General a lo particular*/
+*{
+    margin:0;
+   padding:0;
+}
+header,main, figure,nav,section,article,footer{
+    display:block;
+}
+/*Tipografias*/
+@font-face{
+    font-family:"OpenSans";
+    src:url("../fonts/OpenSans-Regular.ttf");
+}
+/*Contenedores*/
+/*Maquetado para Escritorio 1024px*/
+body{
+  margin:0 auto;  
+  font-family: "OpenSans";
+}
+
+/*header MENU*/
+    .menu{
+        width:100%;
+        height:75px;
+        background-color:#fff;
+        padding:20px 20px 20px 20px;
+        margin:0;
+        border-bottom: none;
+    }
+        .logo{
+            width: 34%;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+        }
+            
+            .vanplastic{
+                  width: 256px;
+    height: 64px;
+    padding: 0;
+    margin: 0;
+       
+    
+            }
+            .navbar-right{
+                    margin-top: .5em;
+            }
+            .container > .navbar-header{
+                margin-top: -1em;
+                   
+            }
+        
+        .redes{
+            width:66%;
+            height:75px;
+            background-color:#fff;
+            padding:0;
+            margin:0;
+            float:left;
+        }
+      
+            .face, .faqs{
+                padding: 0px!important;
+            }
+            .faqs i{
+                    color: #006680;
+    font-size: 23px;
+            }
+
+            .face img{
+                width:24px;
+                height:24px;
+                padding:0;
+               
+            
+            }
+            .preguntas{
+                width:24px;
+                height:24px;
+                padding:0;
+                margin:30px 0px;
+                font-size:16pt;
+                text-decoration:none;
+                color:#00657f;	
+            }
+            .navbar-nav > li {
+  
+    color: #006680;
+    padding-right: 3em;
+}
+    .banner{
+        width:100%;
+        height:500px;
+        background-color:#fff;
+        padding:0;
+        margin:0 0 10px;
+    }
+    .main2{
+        margin-top: 1em;
+    }
+
+    .uno{
+        width:100%;
+        height:500px;    
+    }
+    .main{
+            margin-top: 6em;
+    }
+
+/*Teaser Industrial*/
+    .imgteaserindustrial{
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }*
+
+/*Productos Línea Industrial*/
+    /*Caja Bananera*/
+    .imgbananera{
+        padding: 10px;
+        margin:40px; 
+        background:#fff;
+        float:left;
+      
+    }
+
+    .txtbananera{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Caja María Calada*/
+    .imgmaria{
+        padding: 10px;
+        margin:40px; 
+        background:#fff;
+        float:left;
+      
+    }
+
+    .txtmaria{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Caja María Fondo Plano*/
+    .imgmariaplano{
+        padding:10px;
+        margin: 40px; 
+        background:#fff;
+        float:left;
+
+      
+    }
+
+    .txtmariaplano{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Caja Quetzal Ligera*/
+    .imgquetzalligera{
+        padding:10px;
+        margin:40px;
+        background: #fff;
+        float:left;
+    }
+
+    .txtquetzalligera{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px;
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Caja Quetzal*/
+    .imgquetzal{
+        padding:10px;
+        margin:40px;
+        background: #fff;
+        float:left;
+    }
+
+    .txtquetzal{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px;
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Cesta Lechera*/
+    .imglechera{
+        padding:10px;
+        margin:40px;
+        background: #fff;
+        float:left;
+    }
+
+    .txtlechera{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px;
+        background:#f1f1f1;
+        float:left;
+    }
+/*Boxbanners Hogar y Maquila*/
+    .boxbannerhogar{
+       padding:10px;
+       margin: 10px 10px 10px 100px;
+       float:left;
+      
+    }
+
+    .boxbannermaquila{
+        padding:10px;
+        margin:10px 10px 10px 110px;
+        float:left;
+    }
+
+    .boxbannerotrosproductos{
+        padding:10px;
+        margin:10px 10px 10px 120px;
+        float:left;
+    }
+/*Footer*/    
+footer{
+  width: auto; 
+    height: 90px;
+    background-color: #00657f;
+    padding: 0;
+    margin: 0;
+}
+    .logofooter{
+        width:auto;
+        height:44px;
+        padding:0;
+        margin:0;
+        float:left;
+    }
+
+    .logoblanco{
+        width:auto;
+        height:70px;
+        padding:0px;
+        margin:10px;
+        float:left;
+    }
+
+    .contacto{
+        font: "OpenSans-Regular";
+		font-size:8pt;
+		text-align:right;	
+        color:#fff;
+        margin: 20px 20px 20px 20px;
+    }
+
+.redesmovil{
+    display:none;
+}
+/*bootstrap*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+
+/*Menu*/
+
+/*NOTAS EXTRASMedia Queries Responsive
+320px (Custom Iphone Retina)
+480px (Small Devices, Phones)
+768px (Small Devices, Tablets)
+992px (Medium Devices, Desktops)
+1200px (Large Devices, Wide Screens) */
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 995px) and (min-width: 763px) {
+.navbar-nav > li {
+        padding-right: 1em;
+}
+
+}
+
+@media (max-width: 763px){
+    .face img {
+   
+    margin-top: -1em;
+}
+    .redesmovil{
+        display: inline-block;
+   
+    width: 100px;
+    text-align: center;
+    margin-top: 1em;
+        margin-left: 7em;
+    }
+    .navbar-nav {
+    margin: 7.5px -15px;
+    background-color: #ebebeb;
+    padding: 1em;
+}
+.navbar-nav > li {
+    color: #006680;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+    border-bottom: #ceced0 1px solid;
+    padding-top: 1em;
+}
+.facemenu{
+    display: none!important;
+}
+}
+
+@media (max-width: 580px){
+.redesmovil {
+    
+    margin-left: 2em;
+}
+
+}
+
+@media (max-width: 516px){
+.redesmovil {
+    
+    margin-left: 2em;
+}
+.menu {
+    width: 100%;
+    height: 123px;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    border-bottom: none;
+}
+.container > .navbar-header {
+  
+    text-align: center;
+}
+
+}

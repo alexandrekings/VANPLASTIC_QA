@@ -1,0 +1,83 @@
+
+header,main, figure,nav,section,article,footer{
+    display:block;
+}
+/*Tipografias*/
+@font-face{
+    font-family:"OpenSans";
+    src:url("../fonts/OpenSans-Regular.ttf");
+}
+/*Contenedores*/
+/*Maquetado para Escritorio 1024px*/
+body{
+  margin:0 auto;  
+  font-family: "OpenSans" 
+}
+
+
+    .main{
+            width:100%;
+            height:auto; 
+            background-color:#1a317f; 
+    }
+
+   .main2{
+            width:100%;
+            height:auto; 
+            background-color:#1a317f; 
+    }
+        
+/*Logotipo*/
+.img-fluid{
+max-width: 100%;
+height:auto; 
+text-align: center;    
+}
+
+.logotipo{
+    /* margin: 50px 50px 20px 450px; */
+    /* padding: 0px; */
+    /* text-align: center; */
+    text-align: center;
+    width: 100%;
+    height: 73px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.copyuno{
+    color:#fff;
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+
+.copydos{
+    color:#fff;
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+
+.copytres{
+    color:#fff;
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+   
+.caja{
+    width:100%;
+    height:768px; 
+    background-color:#1a317f; 
+    margin:20px 0px 0px 0px;
+    padding: 10px 80px 80px 0px;
+}
+
+
+
+/*Contenido*/
+
+
+
+

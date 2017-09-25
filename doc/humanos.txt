@@ -1,0 +1,12 @@
+#humanstxt.org/
+#Humanos y tecnología involucrada.
+
+#TEAM
+Vantis & Vanplastic
+<name>--<role>--<twitter>
+
+#¡GRACIAS TOTALES!
+<name> Eme
+
+#Tecnología involucrada 2017
+CSS3, HTML5, BOOTSTRAP

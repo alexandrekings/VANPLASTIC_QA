@@ -1,0 +1,1316 @@
+/*General a lo particular*/
+*{
+   margin:0;
+   padding:0;
+ }
+
+header,main, figure,nav,section,article,footer{
+   display:block;
+}
+
+/*Tipografias*/
+   @font-face{
+   font-family:"OpenSans";
+   src:url("../fonts/OpenSans-Regular.ttf");
+}
+
+/*Contenedores*/
+body{
+  margin:0 auto;  
+  font-family: "OpenSans"
+}
+
+/*Header Menú*/
+h1, .h1 {
+    font-size: 36px;
+    color: #006680;
+    text-transform: uppercase;
+}
+.hide{
+    display: none;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    padding: 14px 20px 0px 20px;
+    margin: 0;
+    border-bottom: none;
+}
+.facemenu{
+    margin-top: 10px;
+}
+ .logo{
+   width: 34%;
+   height: 75px;
+   padding: 0;
+   margin: 0;
+}
+            
+.vanplastic{
+   width: 256px;
+   height: 64px;
+   padding: 0;
+   margin: 0;
+       margin-top: 6px;
+}
+ 
+.container > .navbar-header{
+   margin-top: -1em;     
+}
+
+.redes{
+   width:66%;
+   height:75px;
+   background-color:#fff;
+   padding:0;
+   margin:0;
+   float:left;
+}
+
+/*Header Carrusel*/
+
+        .carousel-inner > .item > img{
+            margin: 0 auto;
+            width: 100%
+            }
+
+        .carousel-indicators {
+            bottom: -9px;
+            }
+
+        .carousel-caption {
+            right: 0%;
+            left: 48%;
+            padding-bottom: 2em;
+            }
+
+        .carousel-caption a:hover{
+            padding: 1.2em 2.2em;
+            box-shadow: 4px 4px 5px #043440;
+            font-weight: bold;
+            }
+
+        .carousel-caption a{
+            background-color: rgba(235, 235, 235, 0.5);
+            color: #006680;
+            text-shadow: none;
+            padding: 1em 2em;
+            font-size: 2rem;
+            }
+
+        .carousel-caption a:hover{
+            text-decoration: none;
+            }
+
+        .face, .faqs{
+            padding: 0px!important;
+            }
+
+        .faqs i{
+            color: #006680;
+            font-size: 23px;
+            }
+
+        .face img{
+            width:24px;
+            height:24px;
+            padding:0;
+            }
+
+        .preguntas{
+            width:24px;
+            height:24px;
+            padding:0;
+            margin:30px 0px;
+            font-size:16pt;
+            text-decoration:none;
+            color:#00657f;	
+            }
+
+        .navbar-nav > li {
+            color: #006680;
+            padding-right: 2em;
+            }
+
+        .caret {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: 15px;
+            vertical-align: middle;
+            border-top: 4px dashed;
+            border-top: 4px solid \9;
+            border-right: 4px solid transparent;
+            border-left: 4px solid transparent;
+            }
+
+        .carousel-caption2 {
+            right: auto;
+            left: auto;
+            padding-bottom: 7em;
+            padding-left: 3em;
+            }
+
+        .carousel-caption2 a:hover {
+            padding: 1em 2em;
+            box-shadow: 4px 4px 5px #043440;
+            font-weight: bold;
+            color: white;
+            }
+
+        .carousel-caption3 {
+            right: 0%;
+            left: 49%;
+            padding-bottom: 2em;
+            padding-bottom: 7em;
+            margin-right: -2em;
+            }
+
+        .carousel-caption3 a:hover {
+            padding: 1em 2em;
+            box-shadow: 4px 4px 5px #043440;
+            font-weight: bold;
+            color: #006680;
+            }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1000;
+            display: none;
+            float: left;
+            min-width: 186px;
+            padding: 12px 13px;
+            margin: 2px 0 0;
+            font-size: 14px;
+            text-align: left;
+            list-style: none;
+            background-color: #ffffff;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            border: 1px solid #ccc;
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 4px;
+            -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            }
+
+        .dropdown-menu li{
+            padding-top: 10px;
+            }
+
+        .dropdown-menu .divider {
+            height: 1px;
+            margin: 9px 0;
+            overflow: hidden;
+            background-color: #e5e5e5;
+            padding-top: 0px;
+            }
+
+        .dropdown-menu{
+            left: .01em!important
+            }
+
+/*Hover menu*/
+    .navbar-default .navbar-nav > li > a:hover{
+        color:#93d600;
+        }
+
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:visited {
+        color: #555;
+        background-color: rgba(96, 208, 225, 0.07);
+        }
+
+/*Efecto hover*/
+           .frame {
+    height: 250px;
+    width: 328px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+            .zoomin img {
+                height: 250px;
+                width: 328px;
+                -webkit-transition: all 2s ease;
+                -moz-transition: all 2s ease;
+                -ms-transition: all 2s ease;
+                transition: all 2s ease;
+                }
+
+            .zoomin img:hover {
+                height: 270px;
+                width: 348px;
+                margin-left: -10px;
+                }
+
+
+/*¡Hola!*/
+
+/*helper classes*/
+
+.grayback{
+    background-color: #ebebeb
+}
+/*Efectos*/
+0% {
+    opacity: 1;
+    transform: translateX(0);
+}
+100% {
+    opacity: 0;
+    transform: translateX(100%);
+}
+.et_pb_scroll_top.et-visible {
+    opacity: 1;
+    -webkit-animation: fadeInRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    -moz-animation: fadeInRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    -o-animation: fadeInRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    animation: fadeInRight 1s 1 cubic-bezier(0.77,0,.175,1);
+}
+
+.et_pb_scroll_top.et-hidden {
+    opacity: 0;
+    -webkit-animation: fadeOutRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    -moz-animation: fadeOutRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    -o-animation: fadeOutRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    animation: fadeOutRight 1s 1 cubic-bezier(0.77,0,.175,1);
+}
+.et_pb_scroll_top {
+       text-align: center;
+    background: rgba(0,0,0,0.4);
+    text-decoration: none;
+    position: fixed;
+    bottom: 95px;
+    right: 0px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    color: #fff;
+    top: auto;
+    height: 66px;
+}
+.et-pb-icon {
+      speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.9;
+    -webkit-font-smoothing: antialiased;
+    font-size: 30px;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.et-hidden{
+    display: none;
+}
+
+.et-visible{
+    display: block;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+/*Fin*/
+
+
+   
+/*Nivel Home*/
+    .main2{
+        margin-top: 1em;
+    }
+
+    .main3{
+        margin-top: 5em;
+    }
+
+    .uno{
+        width:100%;
+        height:500px;    
+    }
+
+    .main{
+        margin-top: 6em;
+    }
+
+    .iconindustrial{      
+        background-color:#d5d2df;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
+        }
+
+    .unoindustrial{
+        background-color: #d5d2df;
+        padding: 0;
+        margin: 0 0 10px;
+        width: 100%;
+        }
+
+    .teaserindustrial{
+        background-color:#ff6666;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
+        }
+
+    .inconfundibles{
+         background-color:#ff6666;
+         padding:0;
+         margin:0 0 10px;
+         float:left;
+        }
+
+    .pedidosbanner img{
+        width: 100%;
+        margin-bottom: 2em;
+        margin-top: 2em
+    }
+
+    .teaserhogar{
+        background-color:#ff8888;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
+        }
+
+    .colores{
+        background-color: #ff6666;
+        padding: 0;
+        margin: 0 0 10px;
+        width: 100%;
+        }
+
+    .iconhogar{
+        background-color:#d5d2df;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
+        }
+
+    .doshogar{
+        width:100%;
+        height:200px; 
+        padding:0;
+        margin:0 0 10px; 
+        }
+
+    .iconmaquila{
+        background-color:#d5d2df;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
+        }
+
+    .unomaquila{
+        width: 100%;
+        }
+
+    .teasermaquila{
+        background-color:#ff6666;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
+        }
+
+    .lineasproductos{
+        background-color: #ebebeb
+        } 
+
+/*Nivel Nosotros*/
+    /*Nuestra Historia*/
+   .img-fluid{
+        max-width:100%;
+        height:auto;
+        margin:50px 0px 0px 0px;
+        padding:0; 
+    }
+
+    .txthistoria{
+        margin:10px 10px 10px 20px;
+        padding:10px;
+    }
+
+    .fraseuno{
+        margin:10px 10px 10px 10px;
+        padding:10px;
+        text-align:center;
+        color:#366076;
+    }
+
+    /*Mision, Visión y Valores*/
+        /*Mision*/
+    .imgmision{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:0px;
+        text-align:center;
+    
+        }
+
+    .txtmision{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:20px;
+        background-color:#f1f1f1;
+        text-align:center;
+       
+        }
+
+          /*Vision*/
+    .imgvision{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:0px;
+        text-align:center;
+ 
+        }
+
+    .txtvision{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:20px;
+        background-color:#f1f1f1;
+        text-align:center;
+    
+        }
+
+           /*Valores*/
+    .imgvalores{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:0px;
+        text-align:center;
+    
+        }
+
+    .txtvalores{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:20px;
+        background-color:#f1f1f1;
+        text-align:center;
+     
+        }
+
+/*¿Por qué Vanplastic?*/
+     .txtporque{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:10px 10px 50px 10px;
+        text-align:center;
+      
+     }
+
+     .frasepie{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:40px 30px 40px 40px;
+        color:#00657d;
+        background-color:#f1f1f1;
+        text-align:center;
+      
+     }
+    
+   .imgporque{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:10px 10px 80px 10px;
+
+   }
+
+/*Nivel Productos*/
+    /*Subnivel Línea Industrial*/
+/*Teaser Industrial*/
+    .imgteaserindustrial{
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }
+
+/*Productos Línea Industrial*/
+    /*Caja Bananera*/
+    .imgbananera{
+        padding: 10px;
+       
+        background:#fff;
+   
+    }
+
+    .txtbananera{
+        margin:40px 20px 20px 20px;
+        padding:2em; 
+        background:#f1f1f1;
+    
+    }
+
+    /*Caja María Calada*/
+    .imgmaria{
+        padding: 10px;
+      
+        background:#fff;
+   
+    }
+
+    .txtmaria{
+        margin:40px 20px 20px 20px;
+            padding:2em; 
+        background:#f1f1f1;
+ 
+    }
+
+    /*Caja María Fondo Plano*/
+    .imgmariaplano{
+        padding:10px;
+      
+        background:#fff;
+   
+    }
+
+    .txtmariaplano{
+        margin:40px 20px 20px 20px;
+           padding:2em; 
+        background:#f1f1f1;
+
+    }
+
+    /*Caja Quetzal Ligera*/
+    .imgquetzalligera{
+        padding:10px;
+       
+        background: #fff;
+    
+    }
+
+    .txtquetzalligera{
+        margin:40px 20px 20px 20px;
+            padding:2em; 
+        background:#f1f1f1;
+     
+    }
+
+    /*Caja Quetzal*/
+    .imgquetzal{
+        padding:10px;
+     
+        background: #fff;
+    
+    }
+
+    .txtquetzal{
+        margin:40px 20px 20px 20px;
+              padding:2em; 
+        background:#f1f1f1;
+      
+    }
+
+    /*Cesta Lechera*/
+    .imglechera{
+        padding:10px;
+   
+        background: #fff;
+    
+    }
+
+    .txtlechera{
+        margin:40px 20px 20px 20px;
+             padding:2em; 
+        background:#f1f1f1;
+     
+    }
+/*Boxbanners Hogar y Maquila*/
+    .boxbannerhogar{
+       padding:10px;
+     
+
+       }
+
+    .boxbannermaquila{
+        padding:10px;
+    
+ 
+    }
+
+    .boxbannerotrosproductos{
+        padding:10px;
+    
+     
+    }
+
+    /*Subnivel Línea Hogar*/
+/*Teaser Hogar*/
+    .imgteaserhogar{
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }
+
+/*Productos Línea Hogar*/
+    /*Cubeta Catorce*/
+    .imgcubetacatorce{
+        padding: 10px;
+   
+        background:#fff;
+
+      
+    }
+
+    .txtcubetacatorce{
+        margin:40px 20px 20px 20px;
+              padding:2em; 
+        background:#f1f1f1;
+ 
+    }
+
+    /*Cubeta Dieciocho*/
+    .imgcubetadieciocho{
+        padding: 10px;
+ 
+        background:#fff;
+ 
+      
+    }
+
+    .txtcubetadieciocho{
+        margin:40px 20px 20px 20px;
+              padding:2em; 
+        background:#f1f1f1;
+
+    }
+
+    /*Cubeta Doce*/
+    .imgcubetadoce{
+        padding:10px;
+       
+        background:#fff;
+      
+
+      
+    }
+
+    .txtcubetadoce{
+        margin:40px 20px 20px 20px;
+              padding:2em; 
+        background:#f1f1f1;
+    
+    }
+
+    /*Cubeta Ocho*/
+    .imgcubetaocho{
+        padding:10px;
+      
+        background: #fff;
+  
+    }
+
+    .txtcubetaocho{
+        margin:40px 20px 20px 20px;
+             padding:2em; 
+        background:#f1f1f1;
+ 
+    }
+
+    /*Tina Uno*/
+    .imgtinauno{
+        padding:10px;
+     
+        background: #fff;
+    
+    }
+
+    .txttinauno{
+        margin:40px 20px 20px 20px;
+              padding:2em; 
+        background:#f1f1f1;
+
+    }
+
+    /*Escurridor de Cubiertos*/
+    .imgescurridor{
+        padding:10px;
+      
+        background: #fff;
+
+    }
+
+    .txtescurridor{
+        margin:40px 20px 20px 20px;
+               padding:2em; 
+        background:#f1f1f1;
+
+    }
+/*Boxbanners Maquila, Otros Productos e Industrial*/
+    .boxbannermaquila{
+       padding:10px;
+
+    }
+
+    .boxbannerotrosproductos{
+        padding:10px;
+   
+
+    }
+
+    .boxbannerindustrial{
+        padding:10px;
+     
+ 
+    }
+
+    /*Subnivel Servicio Maquila*/
+/*Teaser Maquila*/
+    .imgteasermaquila{
+        padding: 0px;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }
+
+/*Servicios de Maquila*/
+    /*Inyección de Plástico*/
+    .imginyeccionplasticos{
+           padding: 0em;
+    margin: 0 auto;
+    background: #fff;
+    float: none;
+    }
+
+    .txtinyeccionplasticos{
+    
+              padding:2em; 
+        background:#f1f1f1;
+     
+    }
+.txtinyeccionplasticos h2,    .txtasesoriaysoluciones h2{
+       margin-top: 0px;
+    margin-bottom: 10px; 
+}
+    /*Asesoria y Soluciones para Nuevos Productos*/
+  .imgasesoriaysoluciones{
+          padding: 0em;
+    margin: 0 auto;
+    background: #fff;
+    float: none;
+    }
+
+    .txtasesoriaysoluciones{
+    
+              padding:2em; 
+        background:#f1f1f1; 
+            min-height: 276px; 
+    }
+
+/*Boxbanners Otros Productos, Industrial y Hogar*/
+    .boxbannerotrosproductos{
+       padding:10px;
+
+    }
+
+    .boxbannerindustrial{
+        padding:10px;
+
+    }
+
+    .boxbannerhogar{
+        padding:10px;
+    
+   
+    }
+    .padtop{
+        margin-top: 2em;
+    }
+
+    /*Subnivel Otros Productos*/
+/*Teaser Otros Productos*/
+    .imgotrosproductos{
+        padding: 0;
+     
+        width:100%;
+        height:auto; 
+    }
+
+/*Otros Productos*/
+    /*Canasta Queso Chico*/
+    .imgcestaostricola{
+        padding: 0px;
+ 
+        background:#fff;
+
+    }
+
+    .txtcestaostricola{
+        margin:10px;
+               padding:2em; 
+        background:#f1f1f1;
+  
+    }
+
+    /*Canasta Queso Chico*/
+    .imgcanastochico{
+       padding: 0px;
+
+        background:#fff;
+ 
+    }
+
+    .txtcanastochico{
+        margin:10px;
+               padding:2em; 
+        background:#f1f1f1;
+     
+    }
+
+    /*Canasto Queso Grande*/
+  .imgcanastogde{
+       padding: 0px;
+  
+        background:#fff;
+   
+    }
+
+    .txtcanastogde{
+        margin:10px;
+              padding:2em; 
+        background:#f1f1f1;
+       
+    }
+
+    /*Cesta Fondo Ondulado*/
+     .imgcestaondulado{
+        padding: 0px;
+ 
+        background:#fff;
+     
+    }
+
+    .txtcestaondulado{
+        margin:10px;
+               padding:2em; 
+        background:#f1f1f1;
+      
+    }
+    
+    /*Silla*/
+       .imgsilla{
+        padding: 0px;
+    
+        background:#fff;
+   
+    }
+
+        .txtsilla{
+        margin:10px;
+             padding:2em; 
+        background:#f1f1f1;
+     
+    }
+
+
+/*Boxbanners Otros Productos, Industrial y Hogar*/
+    .boxbannerindustrial{
+       padding:10px;
+   
+      
+    }
+
+    .boxbannerhogar{
+        padding:10px;
+
+    }
+
+    .boxbannerotrosproductos{
+        padding:10px;
+     
+
+    }
+
+    /*Subnivel Catálogo,PENDIENTE ACTUALMENTE SE ENCUENTRA EN LA PARTE CONTACTO ESTA INFORMACIÓN*/
+.llameya{
+        margin:10px;
+        padding:20px;
+        color:#39657a;
+        text-align:center;
+    }
+/*Imagenes Responsive*/
+.img-fluid{
+    max-width:100%;
+    height:auto;
+    margin:50px 0px 0px 0px;
+    padding:0; 
+}
+
+/*Nivel Pedido*/
+ .containerpublicitario{
+        margin-top: 1em;
+        padding:20px;
+        background-color:#f1f1f1;
+    }
+
+.llameya{
+        margin:10px;
+        padding:20px;
+        color:#39657a;
+        text-align:center;
+    }
+  
+/*Proceso para Levantar Pedidos*/
+.levantamiento{
+        margin-top: 1em;
+        padding:20px;
+        text-align: center;
+}
+
+/*Nivel Contacto*/
+
+.maps{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+/*Nivel Preguntas Frecuentes*/
+/*Teaser Preguntas*/
+    .imgteaserpreguntas{
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }
+
+    /*Entrega*/
+    .imgentrega{
+
+        background:#fff;
+        text-align: center;
+      
+     
+    }
+
+    .txtentrega{
+        margin:2em;
+        padding:20px 0px 20px 20px; 
+        background:#f1f1f1;
+       
+    }
+
+    /*Garantía*/
+    .imgarantia{
+        padding: 10px;
+    
+        background:#fff;
+      
+    }
+
+    .txtgarantia{
+           margin:2em;
+        padding:20px 0px 20px 20px; 
+        background:#f1f1f1;
+      
+    }
+
+    /*Devoluciones*/
+    .imgdevoluciones{
+        padding:10px;
+           margin:2em;
+        background:#fff;
+        
+    }
+
+    .txtdevoluciones{
+           margin:2em;
+        padding: 20px 0px 20px 20px; 
+        background:#f1f1f1;
+     
+    }
+
+     /*Contactanos*/
+    .imgcontactanos{
+        padding:0px;
+        margin: 20px 10px 15px 70px; 
+       text-align:center;
+       
+    }
+
+    .txtcontactanos{
+        margin-top: 10px;
+        margin-left:50px;
+        padding:10px;
+        /*text-align: left;*/
+       
+        /*background:#f0f0f0;*/
+    }
+
+/*Footer*/
+    footer{
+        width: auto; 
+        height: 90px;
+        background-color: #00657f;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logofooter{
+        width:auto;
+        height:44px;
+        padding:0;
+        margin:0;
+        float:left;
+    }
+
+    .logoblanco{
+        width:auto;
+        height:70px;
+        padding:0px;
+        margin:10px;
+        float:left;
+    }
+
+    .contacto{
+        font: "OpenSans-Regular";
+		font-size:8pt;
+		text-align:right;	
+        color:#fff;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .clientesuno{
+        font:OpenSans-Bold;
+        font-size:30pt;
+        text-align:left;
+        color:#00657d;
+    }
+
+    .redesmovil{
+        display:none;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: #0067a0;
+}
+    .navbar-default .navbar-toggle:hover .icon-bar {
+      background-color: #93d600;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover{
+    border-color: #fff;
+    background: transparent;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 26px;
+    height: 4px;
+    border-radius: 1px;
+}
+.btn-primary{
+    padding: 1em 2em;
+    text-transform: uppercase;
+}
+.marbo{
+    margin-bottom: 2em;
+}
+.formpad{
+    padding-left:0px;
+    padding-right: 0px;
+}
+.ubic{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.formbaja{
+    margin-bottom: 2em;
+}
+/*Bootstrap*/
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 11px 11px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.txtcontactanos h1, .h1,.txtcontactanos h2, .h2,.txtcontactanos h3, .h3 {
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+
+/*Media queries*/
+@media (max-width: 1200px){
+.mainav{
+        width: 100%;
+}
+}
+
+@media (max-width: 1000px){
+.navbar-nav > li {
+    color: #006680;
+    padding-right: 0em;
+}
+
+
+}
+
+@media (max-width: 995px)  {
+.imgasesoriaysoluciones, .imginyeccionplasticos {
+  
+    margin-bottom: 1em;
+}
+
+}
+
+@media (max-width: 763px){
+.imgentrega, .imgarantia,.imgdevoluciones {
+   
+        padding: 3em 7em;
+}
+
+    .navbar-toggle {
+       position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 17px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+    .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 2em;
+}
+    .face img {
+   
+    margin-top: -1em;
+}
+   
+    .navbar-nav {
+     margin: -0.5px -18px;
+    background-color: #ffffff;
+    padding: 1em;
+}
+.navbar-nav > li {
+       color: #006680;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    border-bottom: rgba(206, 206, 208, 0.28) 1px solid;
+    padding-top: 0px;
+}
+.facemenu{
+    display: none!important;
+}
+}
+
+@media (max-width: 580px){
+.redesmovil {
+    
+    margin-left: 2em;
+}
+.main3{
+    margin-top: 7em;
+}
+.logoblanco {
+   
+    float: none;
+}
+
+.logofooter {
+    float: none;
+    text-align: center;
+    height: 80px;
+}
+footer {
+  
+    height: auto;
+  
+}
+.contacto {
+   
+    text-align: center;
+  
+    margin: 20px 0px 10px 0px;
+}
+.main {
+    margin-top: 9em;
+}
+
+.carousel-caption {
+    right: 15%;
+    left: 59%;
+    padding-bottom: 1.5em;
+        display: none;
+}
+.carousel-caption a, .carousel-caption a:hover {
+  
+    text-shadow: none;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+}
+
+@media (max-width: 516px){
+.redesmovil {
+    
+    margin-left: 2em;
+}
+.menu {
+  width: 100%;
+    height: 100px;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    border-bottom: none;
+}
+.container > .navbar-header {
+  
+    text-align: left;
+}
+
+}
+
+
+/*NOTAS EXTRAS Las viejas confiables
+320px (Custom Iphone Retina)
+480px (Small Devices, Phones)
+768px (Small Devices, Tablets)
+992px (Medium Devices, Desktops)
+1200px (Large Devices, Wide Screens) */
